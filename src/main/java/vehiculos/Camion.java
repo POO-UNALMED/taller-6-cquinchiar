@@ -19,8 +19,8 @@ public class Camion extends Vehiculo {
 	public static void setTotalCamion(int totalCamion) {
 		Camion.totalCamion = totalCamion;
 	}
-	public Camion (String placa,int velocidadMaxima,String nombre,int precio,
-			int peso,String traccion,Fabricante fabricante,int ejes) {
+	public Camion (String placa,String nombre,int precio,
+			int peso,Fabricante fabricante,int ejes) {
 			super(placa,2,80,nombre,precio,peso,"4X2",fabricante);
 			this.setEjes(ejes);
 			totalCamion++;
